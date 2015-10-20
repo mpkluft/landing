@@ -1,3 +1,13 @@
-.header{
-	border: 1px solid black;
+$main-text-color: #ffffff;
+$color-text-h1: #242424;
+$color-text-description: #828282;
+$backgraund-color1: #ffffff;
+$background-color2: #F7F7F7;
+$h1-size: 50px;
+
+@mixin h1-styles {
+	font-size: $h1-size;
+	color: $color-text-h1;
+	text-transform: uppercase;
 }
+h1{ @include h1-styles; }
