@@ -4,70 +4,123 @@ $color-text-h1: #242424;
 $color-text-description: #828282;
 $backgraund-color1: #ffffff;
 $background-color2: #F7F7F7;
-$h1-size: 50px;
+$h1-size: 40px;
 
 @mixin h1-styles {
-	font-size: $h1-size;
-	color: $color-text-h1;
-	text-transform: uppercase;
+  font-size: $h1-size;
+  color: $color-text-h1;
+  text-transform: uppercase;
 }
 h1{ @include h1-styles; }
 .b-header {
-	height: 800px;
-	background:url('../../img/background.jpg');
-	padding: 30px 0 0 0;
+  height: 800px;
+  background:url('../../img/background.jpg');
+  padding: 30px 0 0 0;
 }
 .b-header__greating {
-	width: 100%;
-	margin: 200px 0;
-	text-align: center;
+  width: 100%;
+  margin: 200px 0;
+  text-align: center;
 }
 .b-menu {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .b-menu__item {
-		display: inline-block;
-		padding: 0 10px;
-		font-family: $main-font-family;
-		color: $main-text-color;
-		text-transform: uppercase;
+    display: inline-block;
+    padding: 0 10px;
+    font-family: $main-font-family;
+    color: $main-text-color;
+    text-transform: uppercase;
 }
 .b-h1 {
-	color: $main-text-color;
-	font-family: $main-font-family;
-	font-size: $h1-size;
-	margin: 0;
+  color: $main-text-color;
+  font-family: $main-font-family;
+  font-size: $h1-size;
+  margin: 0;
+  font-weight: bold;
 }
 .b-h1_big {
-	font-size: 80px;
+  font-size: 80px;
 }
 .b-h1_black{
-	color: $color-text-h1;
+  color: $color-text-h1;
 }
 .b-button {
-	color: $main-text-color;
-	background: #FED136;
-	padding: 10px;
-	border-radius: 2px;
+  color: $main-text-color;
+  background: #FED136;
+  padding: 10px;
+  border-radius: 2px;
 }
 .b-button:hover{
-	color: $main-text-color;
-	text-decoration: none;
+  color: $main-text-color;
+  text-decoration: none;
 }
 .b-button__text {
-	font-family: $main-font-family;
-	text-transform: uppercase;
-	font-weight: bold;
+  font-family: $main-font-family;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .b-content {
-	padding: 100px 0;
-	text-align: center;
+  padding: 120px 0;
+  text-align: center;
 }
 .b-content_black {
-	background-color: #000;
+  background-color: #000;
 }
 .b-content_grey {
-	background-color: $background-color2;
+  background-color: $background-color2;
 }
+.b-content-item {
+  width: 300px;
+  margin: 0 auto;
+}
+.b-content-item__bh3 {
+  margin: 10px 0 30px 0;
+}
+.b-content__services {
+  padding-bottom: 17px;
+}
+.b-content__text {
+  padding: 0 0 60px 0;
+}
+.b-icon {
+  height: 73px;
+  width: 73px;
+  display: block;
+  background: url('../../img/icon_set3.png');
+  margin: 0 auto;
+}
+.b-text {
+  color: #828282;
+  display: block;
+  font-size: 16px;
+  font-family: times;
+}
+.b-h3 {
+  margin: 0;
+  padding: 0 0 20px 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.b-news-item {
+  width: 28%;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.b-news-item__img {
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+}
+.b-news-item__h3 {
+  padding-top: 30px;
+}
+.b-news-item__text {
+  padding-bottom: 30px;
+  width: 300px;
+}
+

@@ -9,3 +9,49 @@
 */
 @import "partials/app.scss";
 @import "partials/media.css";
+
+.obout-us__img {
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid #F1F0EC;
+  width: 168px;
+  height: 168px;
+  overflow: hidden;
+  left: 550px;
+}
+.obout-us__img_yellow {
+  background-color: #FED136;
+}
+.obout-us__text-left {
+  width: 50%;
+  float: left;
+  height: 270px;
+}
+.b-obout-us-text {
+  color: #fff;
+}
+.b-about-item {
+  width: 430px;
+  float: right;
+  text-align: right;
+  border-right: 2px solid #F1F1F1;
+  padding-right: 130px;
+  height: 270px;
+}
+.obout-us__text-right {
+  width: 50%;
+  float: right;
+  height: 270px;
+}
+.b-about-item_right {
+  width: 430px;
+  float: left;
+  text-align: left;
+  border-left: 2px solid #F1F1F1;
+  padding-left: 130px;
+  height: 270px;
+}
+.obout-us_pustoi {
+  width: 100%;
+  height: 150px;
+}
