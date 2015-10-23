@@ -12,3 +12,7 @@ git init
 git commit -m "first commit"
 git remote add origin git@github.com:mpkluft/landing.git
 git push -u origin master
+///////////////////////////
+CSS
+сделать из дива круг - border-radius: 50%
+выровнять по центру блок с position: absolute;  left:50% + margin-left: -width/2
