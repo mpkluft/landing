@@ -97,4 +97,72 @@
 .b-content__sponsors :nth-child(4) {
   background:url('../../img/icon_set.png') -578px 48px;
 }
+.b-contact-form {
+  width: 940px;
+  height: 300px;
+}
+.b-contact-form {
+  margin: 0 auto;
+}
+.b-form__div-input {
+  width: 50%;
+  float: left;
+  height: 210px;
+  padding-right: 14px;
+}
+
+.b-form__div-textarea {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  padding-left: 14px;
+  height: 210px;
+}
+.b-input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 0 30px 0;
+  color: #BBBBBB;
+}
+.b-form__div-input :last-child {
+  margin: 0;
+}
+.b-textarea {
+  width: 100%;
+  border-radius: 4px;
+  padding: 15px;
+  height: 210px;
+}
+.b-input-submit {
+  background-color: #FED136;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 240px;
+  height: 65px;
+  font-size: 26px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.b-form__div-button {
+  margin-top: 28px;
+}
+.b-icon_white {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background:url('../../img/icon_set2.png') -577px 41px; 
+}
+
+.b-footer__icon :nth-child(2) {
+  background:url('../../img/icon_set2.png') -617px 41px;
+}
+.b-footer__icon :nth-child(3) {
+  background:url('../../img/icon_set2.png') -535px 41px;
+}
+.b-footer__icon :nth-child(4) {
+  background:url('../../img/icon_set2.png') -495px 41px;
+}
 

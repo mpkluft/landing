@@ -1,4 +1,4 @@
-https://xakep.ru/2014/05/30/bower-package-manager/ -  bower 
+﻿https://xakep.ru/2014/05/30/bower-package-manager/ -  bower 
 http://webhamster.ru/site/page/index/articles/comp/171 - git
 http://noanime.ru/2013/06/sass-compass-installation-configuration.html - sass + compass
 http://sass-scss.ru/documentation - документация sass
@@ -16,3 +16,4 @@ git push -u origin master
 CSS
 сделать из дива круг - border-radius: 50%
 выровнять по центру блок с position: absolute;  left:50% + margin-left: -width/2
+табличная верстка дивами display:table;, display:table-row; и display:table-cell;
