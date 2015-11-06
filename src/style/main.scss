@@ -150,10 +150,14 @@
   margin-top: 28px;
 }
 .b-icon_white {
-  height: 40px;
-  width: 40px;
+  height: 41px;
+  width: 41px;
   display: inline-block;
-  background:url('../../img/icon_set2.png') -577px 41px; 
+  background:url('../../img/icon_set2.png') -577px 41px;
+  margin-right: 5px;
+}
+.b-footer__icon {
+  padding: 20px 0;
 }
 
 .b-footer__icon :nth-child(2) {
@@ -164,5 +168,11 @@
 }
 .b-footer__icon :nth-child(4) {
   background:url('../../img/icon_set2.png') -495px 41px;
+}
+.b-footer__copyright {
+  padding: 27px 0 27px 84px;
+}
+.b-text_footer {
+  font-size: 14px;
 }
 
