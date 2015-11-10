@@ -14,9 +14,10 @@ $width-img: 168px;
 }
 h1{ @include h1-styles; }
 .b-header {
-  height: 800px;
-  background:url('../../img/background.jpg') top center no-repeat; 
-  padding: 30px 0 0 0;
+  height: 700px;
+  background: url('../../img/header-bg.png'),
+              url('../../img/background.jpg') top center no-repeat; 
+  padding: 44px 0 0 0;
 }
 .b-header__greating {
   width: 100%;
@@ -30,10 +31,15 @@ h1{ @include h1-styles; }
 }
 .b-menu__item {
     display: inline-block;
-    padding: 0 10px;
-    font-family: $main-font-family;
+    padding-right: 37px;
+}
+.b-memu-a {
+  color: $main-text-color;
+  text-transform: uppercase;
+  font-family: $main-font-family;
+  &:hover{
     color: $main-text-color;
-    text-transform: uppercase;
+  }
 }
 .b-h1 {
   color: $main-text-color;
@@ -42,8 +48,15 @@ h1{ @include h1-styles; }
   margin: 0;
   font-weight: bold;
 }
+.b-h1_greating{
+  font-size: 40px;
+  font-weight: normal;
+}
 .b-h1_big {
-  font-size: 80px;
+  font-size: 75px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-bottom: 40px;
 }
 .b-h1_black{
   color: $color-text-h1;
@@ -51,8 +64,13 @@ h1{ @include h1-styles; }
 .b-button {
   color: $main-text-color;
   background: #FED136;
-  padding: 10px;
+  padding: 16px 0;
   border-radius: 2px;
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
 }
 .b-button:hover{
   color: $main-text-color;
@@ -81,10 +99,10 @@ h1{ @include h1-styles; }
   margin: 0 auto;
 }
 .b-content-item__bh3 {
-  margin: 10px 0 30px 0;
+  margin: 22px 0 14px 0;
 }
 .b-content__services {
-  padding-bottom: 17px;
+  padding-bottom: 9px;
 }
 .b-content__text {
   padding: 0 0 70px 0;
@@ -102,30 +120,47 @@ h1{ @include h1-styles; }
   font-size: 16px;
   font-family: times;
 }
+.b-text-news{
+  font-size: 14px;
+  color: #737373;
+}
+.b-text_span {
+  font-size: 18px;
+}
 .b-h3 {
   margin: 0;
   padding: 0;
   font-weight: bold;
   font-size: 18px;
 }
+.b-a {
+  color: #353535;
+  font-size: 18px;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+    color: #353535;
+  }
+}
 .b-news-item {
-  width: 28%;
+  width: 290px;
   background-color: #fff;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 35px;
   margin-top: 40px;
 }
 .b-news-item__img {
   overflow: hidden;
   width: 100%;
   height: 300px;
+  position: relative;
 }
 .b-news-item__h3 {
   padding-top: 30px;
 }
 .b-news-item__text {
   padding-bottom: 30px;
-  width: 300px;
+  width: 100%;
 }
 .obout-us__img {
   position: absolute;
@@ -196,6 +231,9 @@ h1{ @include h1-styles; }
 }
 .b-amazing__icon :nth-child(3){
   background: url('../../img/icon_set2.png') 248px 0;
+}
+.b-img-plugin{
+  position: absolute;
 }
 .b-img-sponsors {
   width: 197px;
