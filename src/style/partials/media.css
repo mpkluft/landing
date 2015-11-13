@@ -1,23 +1,131 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width : 1400px) {
 
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 990px) {
+	header.b-header {
+		height: 450px;
+	}
+	div.b-header__greating{
+		margin: 90px 0;
+	}
+	div.b-h1_big {
+		font-size: 55px;
+	}
+	div.b-h1_greating {
+		font-size: 30px;
+	}
+		li.b-menu__item {
+		padding-right: 15px;
+	}
+	div.b-content {
+		padding: 50px 0;
+	}
+	div.b-content__text {
+		padding: 0 0 40px;
+	}
+	div.b-content-item {
+		width: 200px;
+	}
+/*след*/
+	div.b-news-item {
+		width: 261px;
+		margin: 0 2%;
+	}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	header.b-header {
+		height: 430px;
+	}
+	div.b-header__greating{
+		margin: 40px 0;
+	}
+	a.b-logo {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	a.b-memu-a {
+		font-size: 15px;
+	}
+		li.b-menu__item {
+		padding: 0;
+		width: 19%;
+		text-align: center;
+	}
+	div.b-h1_big {
+		font-size: 40px;
+	}
+	div.b-h1_greating {
+		font-size: 20px;
+	}
+	div.b-content {
+		padding: 50px 0;
+	}
+	div.b-content__text {
+		padding: 0 0 40px;
+	}
+	div.b-content-item {
+		width: 100%;
+	}
+	span.b-text_span {
+		font-size: 23px;
+		margin-bottom: 30px;
+	}
+	h3.b-h3 {
+		font-size: 25px;
+		color: red;
+	}
+	div.b-news-item {
+		width: 300px;
+		margin: 0 50px 50px 50px;
+	}
+	div.b-content_about
+	 {
+		display: none;
+	}
 
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	header.b-header {
+		height: 430px;
+		padding: 23px 0 0;
+	}
+	div.b-header__greating{
+		margin: 35px 0;
+	}
+	a.b-logo {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	a.b-memu-a {
+		font-size: 10px;
+	}
+		li.b-menu__item {
+		padding: 0;
+		width: 17%;
+		text-align: center;
+	}
+	div.b-h1_big {
+		font-size: 40px;
+	}
+	div.b-h1_greating {
+		font-size: 20px;
+	}
+	/*след*/
+	div.b-news-item {
+		width: 250px;
+		margin: 0 50px 50px 50px;
+	}
 }
 
 /* Custom, iPhone Retina */
